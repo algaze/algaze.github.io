@@ -1,0 +1,122 @@
+/*======= MIXER =======*/
+
+.firefox a, .portfolio a, .news a {
+	color:#111;
+}
+.firefox a.button, .portfolio a.button, .news a.button {
+	color:#fff;
+}
+.firefox a.button:hover, .portfolio a.button:hover, .news a.button:hover {
+	color:#111;
+}
+/* HOME SECTION */
+#home .main, #home2 .main {
+	width: 500px;
+	position: relative;
+	/* top:100px; */
+	color: #FFF;
+}
+#home{
+	/* min-height: 700px; */
+	min-height: 570px;
+	background: #FFF url(../../images/keon.jpg) no-repeat center right;
+}
+#home2{
+	min-height: 700px;
+	background: #FFF url(../../images/peak.jpg) no-repeat center center;
+}
+#home .main h2 {
+	text-shadow: 0px 0px 8px rgba(0,0,0,1);
+    filter: dropshadow(color=rgba(0,0,0,1), offx=0, offy=0);
+}
+.first-section, .second-section {
+	color:#FFCCBA;
+	-webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+/* Intro section */
+#intro{
+	background: #FFF;
+	color: #333;
+}
+/* FIREFOX SECTION */
+.firefox {
+	background-color:#C53D0D;
+	background-image: -moz-radial-gradient(center center, circle cover, #F27041 0%, #C53D0D 100%);
+	background-image: -webkit-radial-gradient(center center, circle cover, #F27041 0%, #C53D0D 100%);
+	background-image: -o-radial-gradient(center center, circle cover, #F27041 0%, #C53D0D 100%);
+	background-image: -ms-radial-gradient(center center, circle cover, #F27041 0%, #C53D0D 100%);
+	background-image: radial-gradient(center center, circle cover, #F27041 0%, #C53D0D 100%);
+	border-top: 3px solid #F06D3E;
+	z-index: 50;
+}
+.firefox .bbot1, .firefox .btop1, .firefox .bdot {
+	border-color:#7F7B7F;
+}
+.firefox .caption {
+	color:#7F7B7F;
+}
+.firefox a {
+	color:#7F7B7F;
+}
+.firefox h1,.firefox h2,.firefox h3,.firefox h4,.firefox h5,.firefox h6{
+	color: #FFF;
+}
+/* FEATURES SECTION */
+.feat {
+	color: #333;
+	background-color:#FFF;
+	-moz-box-shadow: inset 0px 5px 12px 0px rgba(0, 0, 0, 0.3) /* Firefox */
+	-webkit-box-shadow: inset 0px 5px 12px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 5px 12px 0px rgba(0, 0, 0, 0.3);
+}
+.feat .container {
+	background: url(../../images/dev_prev2.png) no-repeat center right;
+}
+.feat .bbot1, .feat .btop1, .feat .bdot {
+	border-color:#333;
+}
+.feat .caption {
+	color:#333;
+}
+.feat a {
+	color: #333
+}
+#slider-peak { 
+}
+#blog {
+	min-height: 570px;
+}
+
+/* CONTACT SECTION */
+.contact {
+	color: #333;
+	min-height: 700px;
+	background: #E6E6E6;
+}
+.contact h1,.contact h2,.contact h3,.contact h4,.contact h5,.contact h6{
+	color: #333;
+}
+.contact h4{
+	font-family:"NettoOT bold", Arial, sans-serif;
+}
+.contact .bbot1, .contact .btop1, .contact .bdot {
+	border-color:#333;
+}
+.contact .caption {
+	color:#333;
+}
+.contact a {
+	color:#333;
+}
+.contact-form input[type="text"],.contact-form textarea{
+	color: #C9C9C9;
+	background: #7C7C7C;
+}
+.submit-btn{
+	color: #C9C9C9;
+	background: #7C7C7C;
+	border-color: #7C7C7C;
+}
